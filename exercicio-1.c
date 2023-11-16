@@ -48,9 +48,7 @@ int main(){
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
-// ex: 1
 int main(){
 
 	int matriz[3][3];
