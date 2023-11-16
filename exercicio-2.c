@@ -25,9 +25,43 @@ int main(){
     printf("| %d | %d |\n", mat[1] [0], mat[1] [1]);
 
     printf("soma = | %d | %d |\n", mat[2] [1], mat[2] [0]);
-
-   
-    
-
-    
 }
+
+/*//resposta do professor:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+// ex: 1
+int main(){
+	
+	int i, j;
+	int matriz1[2][2], matriz2[2][2], soma[2][2];
+	
+// Preenchendo as matrizes
+	printf("Digite os elementos da primeira matriz 2x2:\n");
+	for (i = 0; i < 2; ++i)
+	for (j = 0; j < 2; ++j)
+	scanf("%d", &matriz1[i][j]);
+	
+	printf("Digite os elementos da segunda matriz 2x2:\n");
+	for (i = 0; i < 2; ++i)
+	for (j = 0; j < 2; ++j)
+	scanf("%d", &matriz2[i][j]);
+
+// Realizando a soma
+	for (i = 0; i < 2; ++i)
+	for (j = 0; j < 2; ++j)
+	soma[i][j] = matriz1[i][j] + matriz2[i][j];
+
+ // Exibindo a matriz resultante
+	printf("\nMatriz resultante da soma:\n");
+	for (i = 0; i < 2; ++i) {
+	for (j = 0; j < 2; ++j)
+	
+	printf("%d\t", soma[i][j]);
+	printf("\n");
+	}
+return 0;
+}*/
